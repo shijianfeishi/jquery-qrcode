@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>抽奖活动</title>
+        <script src="./js/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="./js/jquery.qrcode.min.js"></script>
+	</head>
+	<body class="bodybg">
+        <div id="code"></div>
+        <script>
+            $(function(){
+                $('#code').qrcode("https://www.baidu.com");
+            });
+        </script>
+    </body>
+</html>
